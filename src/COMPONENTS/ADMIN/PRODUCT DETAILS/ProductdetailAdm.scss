@@ -1,0 +1,66 @@
+.product-details{
+    .main{
+        // margin-top: 4%;
+    }
+    .head h4{
+        padding-top: 4%;
+        font-family:"ABChanel Corpo Regular" ;
+        font-weight: 600;
+        text-align: center;
+    }
+    .caros{
+        width: 80%;
+        padding-bottom: 10%;
+    
+    }
+    .caros img{
+        width: 30%;
+        max-width: 80% !important;
+        margin-left: 8% !important;
+
+    }
+    .contents{
+        width: 60%;
+        margin-top: 4%;
+    }
+    .product-name {
+        border-bottom: 3px solid black;
+    }
+    .product-name h5{
+        font-family:"ABChanel Corpo Regular" ;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .product-title{
+        margin-top: 5%;
+    }
+    .product-description{
+        margin-top: 5%;
+    }
+    .product-description p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .product-price{
+        margin-top: 3%;
+        width:20%;
+        padding: 10px 10px;
+
+    }
+    .product-price h6{
+        color: red;
+        font-family:"ABChanel Corpo Regular" ;
+        font-weight: 600;
+    }
+    .edit-button{
+        margin-top: 10%;
+    }
+    .edit-btn{
+        text-decoration: none;
+        margin-top: 4%;
+        color: white;
+        // border: 1px solid black;
+        background-color: rgba(44, 104, 44, 0.873);
+        padding: 10px 90px;
+    }
+}

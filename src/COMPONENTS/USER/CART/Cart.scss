@@ -1,0 +1,126 @@
+.all-cart{
+    padding-bottom: 10%;
+    .head{
+        padding-top: 3%;
+        text-align: center;
+    }
+    .head h4{
+        
+        font-weight: 600;
+        font-family:"ABChanel Corpo Regular" ;
+    }
+    .head p{
+        font-size: 14px;
+    }
+    .roow{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 4%;
+    }
+   .bottom{
+    border-bottom: 1px solid black;
+   }
+    .product-container{
+        display: flex;
+        width: 100%;
+       
+
+    }
+    .left-side{
+        display: flex;
+        width: 60%;
+        padding-left: 10%;
+
+    }
+    .left-side img{
+        width: 15%;
+    }
+    .contents{
+        margin-top: 5%;
+    }
+    .contents h5{
+        font-size: 13px;
+        color: black;
+        font-weight: 600;
+        font-family:"ABChanel Corpo Regular" ;
+    }
+    .contents p{
+        font-size: 12px;
+    }
+    .delete-btn{
+        padding-top: 2%;
+        text-decoration: none;
+        color: red;
+        font-size: 11px;
+        font-weight: 700;
+        font-family: "ABChanel Corpo Regular";
+    }
+    .right-side{
+        margin-top: 3%;
+        width: 40%;
+        display: flex;
+        gap:10px ;
+        padding-right: 10%;
+        justify-content: space-around;
+    }
+    .prices h5{
+        
+        font-size: 17px;
+        font-weight: 600;
+        font-family:"ABChanel Corpo Regular" ;
+    }
+    .total{
+        margin: auto;
+        margin-top: 10%;
+        background-color: #f6f6f6;
+        height: auto;
+        padding-bottom: 10px;
+        width: 50%;
+        
+    }
+    .subtotal{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-left: 7%;
+        padding-top: 5%;
+    }
+    .total-price{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-left: 7%;
+        padding-top: 5%;
+    }
+    .delivery{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin-left: 7%;
+        padding-top: 5%;
+    }
+    .total-price h6{
+        color: red;
+        font-weight: 600;
+        font-family:"ABChanel Corpo Regular" ;
+    }
+    .total-price h5{
+        font-weight: 600;
+        font-family:"ABChanel Corpo Regular" ;
+    }
+    .check-out{
+        margin-top: 3%;
+        text-align: center;
+    }
+    .checkout-btn{
+      text-decoration: none;
+      border: 1px solid black;
+      background-color: black;
+      color: white;
+      padding: 10px 30px ;
+      border-radius: 5px;
+
+    }
+}

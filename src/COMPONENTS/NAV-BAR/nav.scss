@@ -1,0 +1,90 @@
+.navbar-main{
+    a {
+        font-size:14px;
+        font-weight:700
+        
+      }
+      .navoo{
+        margin-left: 10%;
+        width: 20%;
+      }
+      #msg {
+        // width: 100%;
+        // padding-left: 2%;
+        color: red;
+    }
+    .signout{
+        color: black;
+        text-decoration: none;
+        // margin-left: 1%;
+    }
+    #user-head{
+      // padding-left: 3%;
+  
+    }
+      .navoo li{
+        margin-left: 5%;
+        padding-left: 15px;
+      }
+      nav{
+        height: 80px;
+      }
+      .superNav {
+        font-size:13px;
+      }
+      .icon{
+        margin-left: 5%;
+        text-decoration: none;
+        color: black;
+      }
+      .wishlist{
+        margin-top: 1%;
+        margin-left: 5%;
+      }
+      .wish{
+        text-decoration: none;
+        margin-left: 5%;
+        color: black;
+        padding-top: 10%;
+      }
+      // .navbar-brand{
+      //   background-color: rgb(2, 8, 80);
+      //   color: white;
+      //   padding: 12px 10px;
+      //   font-weight: 900;
+      //   letter-spacing: 1px;
+      //   border-radius: 8px;
+      // }
+      .form-control {
+        outline:none !important;
+        box-shadow: none !important;
+      }
+      .btn{
+        background-color: rgb(36, 74, 36);
+      }
+      .sss{
+        background-color: rgb(36, 74, 36);
+      }
+    //   .form-control{
+    //     border: 1px solid rgb(2, 8, 80);
+    //   }
+
+       .icon{
+        margin-left: 40%;
+      }
+      .user{
+        margin-left: 10%;
+        text-decoration: none;
+        color: black;
+      }
+
+
+
+
+
+      @media screen and (max-width:540px){
+        .centerOnMobile {
+          text-align:center
+        }
+      }
+}
